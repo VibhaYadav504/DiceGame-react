@@ -33,7 +33,7 @@ const[showRules,setShowRules]=useState(false)
     }
 
     setSelectedNumber(undefined);
-    setError(""); // Clear error after successful roll
+    setError(""); 
   };
   const resetScore=()=>{
     setScore(0);
